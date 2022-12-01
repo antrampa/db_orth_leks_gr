@@ -1,0 +1,1 @@
+CREATE TABLE "words" ("id" integer NOT NULL DEFAULT '',"correct_word" varchar NOT NULL DEFAULT '',"extra_info" varchar,"wrong_pos" text,"date_creat" datetime DEFAULT CURRENT_TIMESTAMP,"date_update" datetime DEFAULT CURRENT_TIMESTAMP, PRIMARY KEY (id));
