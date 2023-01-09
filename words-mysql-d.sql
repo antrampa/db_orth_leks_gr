@@ -1,0 +1,1 @@
+CREATE TABLE `words` ( `id` BIGINT NOT NULL AUTO_INCREMENT , `correct_word` VARCHAR(255) NOT NULL , `extra_info` VARCHAR(255) NULL , `wrong_pos` TEXT NULL , `date_creat` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP , `date_update` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY (`id`(20)), INDEX (`wrong_pos`), UNIQUE `ICorrectWord` (`correct_word`)) ENGINE = InnoDB;
